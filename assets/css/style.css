@@ -6,8 +6,6 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
-    border: solid 1px red;
-
 }
 
 .box {
@@ -39,7 +37,7 @@
 }
 
 .h_100 {
-    height: 65px;
+    height: 59px;
 }
 
 .wh_50 {
@@ -242,11 +240,14 @@
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
+    border: none;
 }
 
 .page2_bttn:hover {
+    cursor: pointer;
     background-color: #FFFFFF;
     color: #F4241E;
+    border: #F4241E solid 1px;
 }
 
 .col_12 {
@@ -426,7 +427,7 @@
 }
 
 .font_size {
-
+  cursor: pointer;
     margin-top: 10px;
     margin-left: 14px;
     font-family: 'Poppins';
